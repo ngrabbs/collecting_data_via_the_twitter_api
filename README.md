@@ -26,3 +26,26 @@ https://dev.twitter.com/oauth/overview/authorizing-requests
 oauth overview:
 https://dev.twitter.com/oauth/overview
 
+TODO:
+{
+    "errors": [
+        {
+            "code": 88,
+            "message": "Rate limit exceeded"
+        }
+    ]
+}
+
+
+
+next thing we need to build a dict/array that houses all the users we want to search
+and for testing do something simple like
+pull 200 from each
+
+then we need to pump them into a database
+and start to run outputs against them
+
+i think it should have a report that says:
+all these users are in all followers
+then walk down through the next highest amount
+
