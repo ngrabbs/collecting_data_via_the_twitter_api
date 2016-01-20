@@ -27,6 +27,11 @@ oauth overview:
 https://dev.twitter.com/oauth/overview
 
 TODO:
+
+put in a handler for no more records:
+{"users":[],"next_cursor":0,"next_cursor_str":"0","previous_cursor":0,"previous_cursor_str":"0"}
+
+put in an error handler for this:
 {
     "errors": [
         {
@@ -36,6 +41,8 @@ TODO:
     ]
 }
 
+put in an error handler for this:
+{"request":"\/1.1\/followers\/list.json","error":"Not authorized."}
 
 
 next thing we need to build a dict/array that houses all the users we want to search
@@ -49,3 +56,5 @@ i think it should have a report that says:
 all these users are in all followers
 then walk down through the next highest amount
 
+it probably wont have a highest amount deal
+just a 20 connections
