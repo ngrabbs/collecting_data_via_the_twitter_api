@@ -23,7 +23,6 @@ cursor = '-1'
 
 ## when you get to the end the cursor goes to 0
 ##next_cursor":0
-
 ## if you catch a ratelimit you gotta sleep for a bit
 #ngrabbs@jobsbox:~/collecting_data_via_the_twitter_api$ cat YourAnonNews_5| python -mjson.tool|more
 #{
